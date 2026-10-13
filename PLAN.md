@@ -7,7 +7,7 @@ Règle : on ne passe à la phase suivante que quand tout est coché dans la phas
 - [x] Récupérer l'ABI + l'adresse du contrat FreelanceEscrow déployé sur Sepolia
 - [x] Confirmer l'ordre de l'enum `State` (Created, Funded, Delivered, Disputed, Released, Refunded = 0..5, confirmé via le bytecode)
 - [x] Lister les fonctions réelles du contrat (fund, markDelivered, release, refund, raiseDispute, resolveDispute(bool))
-- [ ] Créer un projectId WalletConnect (cloud.reown.com)
+- [x] Créer un projectId WalletConnect (cloud.reown.com) — renseigné dans .env.local
 
 ## Phase 1 — Setup projet
 - [x] package.json, tsconfig, next.config, tailwind, postcss
@@ -65,5 +65,5 @@ Règle : on ne passe à la phase suivante que quand tout est coché dans la phas
 
 ## Phase 9 — Livraison
 - [x] README (install, env, comment remplacer ABI/adresse)
-- [ ] Déploiement Vercel
+- [x] Déploiement Vercel — https://escrow-dapp-olive.vercel.app
 - [ ] Capture d'écran / lien pour le portfolio

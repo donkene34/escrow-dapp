@@ -2,6 +2,8 @@
 
 Interface web pour le smart contract **FreelanceEscrow** (Solidity, réseau **Sepolia**) : un escrow entre un client, un freelancer et un arbitre.
 
+**Démo :** https://escrow-dapp-olive.vercel.app (réseau Sepolia)
+
 **Stack :** Next.js 14 (App Router) · TypeScript · Tailwind CSS · wagmi v2 + viem · RainbowKit
 
 ## Fonctionnalités
